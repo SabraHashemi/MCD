@@ -4,7 +4,7 @@ import MCDWrapper
 import time
 
 
-np.set_printoptions(precision=8, suppress=True)
+np.set_printoptions(precision=2, suppress=True)
 cap = cv2.VideoCapture('/home/sabra-pc/moving_object/PyFastMCD-master/t.mkv')
 mcd = MCDWrapper.MCDWrapper()
 isFirst = True
